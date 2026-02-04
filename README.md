@@ -26,7 +26,7 @@ DishGPT is an AI-powered recipe recommendation system that helps you discover wh
 ![Main Interface](screenshots/frontpage.png)
 
 ### Recipe Results
-![Recipe Results](screenshots/recipes.png)
+![Recipes](screenshots/recipes.png)
 
 ---
 
