@@ -1,0 +1,644 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Chicken Fried Rice",
+      "cuisine": "Chinese",
+      "type": "non-veg",
+      "prep_time": "10 mins",
+      "cook_time": "15 mins",
+      "servings": 2,
+      "ingredients": {
+        "mandatory": [
+          {"name": "chicken", "amount": "200g", "category": "protein"},
+          {"name": "rice", "amount": "2 cups cooked", "category": "grain"}
+        ],
+        "optional": [
+          {"name": "soy sauce", "amount": "2 tbsp", "category": "sauce"},
+          {"name": "onion", "amount": "1 medium", "category": "vegetable"},
+          {"name": "garlic", "amount": "3 cloves", "category": "spice"},
+          {"name": "egg", "amount": "1", "category": "protein"},
+          {"name": "green onion", "amount": "2 stalks", "category": "vegetable"}
+        ]
+      },
+      "substitutes": {
+        "chicken": ["shrimp", "tofu", "paneer"],
+        "soy sauce": ["tamari", "coconut aminos", "salt"],
+        "rice": ["quinoa", "cauliflower rice"]
+      },
+      "instructions": [
+        "Cook rice and let it cool (use day-old rice if possible)",
+        "Cut chicken into small cubes, season with salt and pepper",
+        "Heat 2 tbsp oil in a wok over high heat",
+        "Add chicken, cook until golden brown (5 mins), remove and set aside",
+        "In the same wok, scramble the egg, then push to the side",
+        "Add garlic and onion, stir-fry for 1 minute",
+        "Add rice, breaking up any clumps",
+        "Pour soy sauce over rice, mix well",
+        "Add chicken back, toss everything together",
+        "Cook for 3-4 minutes, stirring constantly",
+        "Garnish with chopped green onions and serve hot"
+      ],
+      "tags": ["quick", "weeknight", "one-pot", "asian"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "name": "Simple Chicken Curry",
+      "cuisine": "Indian",
+      "type": "non-veg",
+      "prep_time": "10 mins",
+      "cook_time": "25 mins",
+      "servings": 3,
+      "ingredients": {
+        "mandatory": [
+          {"name": "chicken", "amount": "500g", "category": "protein"},
+          {"name": "onion", "amount": "2 medium", "category": "vegetable"}
+        ],
+        "optional": [
+          {"name": "tomato", "amount": "3 medium", "category": "vegetable"},
+          {"name": "ginger", "amount": "1 inch", "category": "spice"},
+          {"name": "garlic", "amount": "6 cloves", "category": "spice"},
+          {"name": "yogurt", "amount": "1/2 cup", "category": "dairy"}
+        ]
+      },
+      "substitutes": {
+        "chicken": ["turkey", "tofu", "paneer"],
+        "yogurt": ["coconut milk", "cream"]
+      },
+      "instructions": [
+        "Cut chicken into pieces, marinate with salt and turmeric",
+        "Heat oil in a pot, add chopped onions",
+        "Fry until golden brown",
+        "Add ginger-garlic paste, cook for 2 mins",
+        "Add tomatoes, cook until soft",
+        "Add chicken pieces, mix well",
+        "Add curry powder/spices, salt",
+        "Add yogurt, mix gently",
+        "Add water, bring to boil",
+        "Simmer covered for 20 mins until chicken is cooked",
+        "Garnish with cilantro, serve with rice or roti"
+      ],
+      "tags": ["comfort", "indian", "spicy"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "name": "Paneer Butter Masala",
+      "cuisine": "Indian",
+      "type": "veg",
+      "prep_time": "15 mins",
+      "cook_time": "20 mins",
+      "servings": 3,
+      "ingredients": {
+        "mandatory": [
+          {"name": "paneer", "amount": "250g", "category": "protein"},
+          {"name": "tomato", "amount": "4 large", "category": "vegetable"},
+          {"name": "butter", "amount": "3 tbsp", "category": "fat"}
+        ],
+        "optional": [
+          {"name": "cream", "amount": "1/2 cup", "category": "dairy"},
+          {"name": "onion", "amount": "2 medium", "category": "vegetable"},
+          {"name": "ginger", "amount": "1 inch", "category": "spice"},
+          {"name": "garlic", "amount": "6 cloves", "category": "spice"},
+          {"name": "cashew", "amount": "10-12", "category": "nuts"}
+        ]
+      },
+      "substitutes": {
+        "paneer": ["tofu", "halloumi"],
+        "cream": ["coconut cream", "cashew cream"],
+        "butter": ["ghee", "olive oil"]
+      },
+      "instructions": [
+        "Cut paneer into cubes, lightly fry until golden, set aside",
+        "Blanch tomatoes in hot water, peel and puree",
+        "Heat butter in a pan, add cumin seeds",
+        "Add chopped onion, ginger-garlic paste, sauté until golden",
+        "Add tomato puree, cook for 10 mins until oil separates",
+        "Add red chili powder, coriander powder, garam masala",
+        "Add cashew paste for richness (optional)",
+        "Pour in cream, mix well",
+        "Add paneer cubes, simmer for 5 mins",
+        "Crush kasuri methi and sprinkle on top",
+        "Serve hot with naan or rice"
+      ],
+      "tags": ["comfort food", "indian", "vegetarian", "creamy"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "name": "Egg Fried Rice",
+      "cuisine": "Asian",
+      "type": "non-veg",
+      "prep_time": "5 mins",
+      "cook_time": "10 mins",
+      "servings": 2,
+      "ingredients": {
+        "mandatory": [
+          {"name": "rice", "amount": "2 cups cooked", "category": "grain"},
+          {"name": "egg", "amount": "2", "category": "protein"}
+        ],
+        "optional": [
+          {"name": "soy sauce", "amount": "2 tbsp", "category": "sauce"},
+          {"name": "garlic", "amount": "2 cloves", "category": "spice"},
+          {"name": "green onion", "amount": "2 stalks", "category": "vegetable"}
+        ]
+      },
+      "substitutes": {
+        "egg": ["tofu scramble"],
+        "soy sauce": ["salt", "tamari"]
+      },
+      "instructions": [
+        "Heat oil in a wok over high heat",
+        "Scramble eggs, set aside",
+        "Add garlic, stir-fry for 30 seconds",
+        "Add rice, break up clumps",
+        "Add soy sauce, mix well",
+        "Add eggs back, toss everything",
+        "Garnish with green onions",
+        "Serve hot"
+      ],
+      "tags": ["quick", "simple", "budget-friendly"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "name": "Tomato Rice",
+      "cuisine": "Indian",
+      "type": "veg",
+      "prep_time": "10 mins",
+      "cook_time": "20 mins",
+      "servings": 3,
+      "ingredients": {
+        "mandatory": [
+          {"name": "rice", "amount": "1.5 cups", "category": "grain"},
+          {"name": "tomato", "amount": "3 large", "category": "vegetable"}
+        ],
+        "optional": [
+          {"name": "onion", "amount": "1 medium", "category": "vegetable"},
+          {"name": "ginger", "amount": "1 inch", "category": "spice"},
+          {"name": "garlic", "amount": "4 cloves", "category": "spice"}
+        ]
+      },
+      "substitutes": {
+        "rice": ["quinoa"]
+      },
+      "instructions": [
+        "Wash and soak rice for 15 mins",
+        "Puree tomatoes",
+        "Heat oil, add mustard seeds",
+        "Add onion, ginger, garlic, sauté",
+        "Add tomato puree, cook for 5 mins",
+        "Add rice, sauté for 2 mins",
+        "Add 3 cups water, salt, bring to boil",
+        "Cover and cook on low for 15 mins",
+        "Fluff with fork and serve"
+      ],
+      "tags": ["one-pot", "simple", "vegetarian"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "name": "Pasta Aglio e Olio",
+      "cuisine": "Italian",
+      "type": "veg",
+      "prep_time": "5 mins",
+      "cook_time": "12 mins",
+      "servings": 2,
+      "ingredients": {
+        "mandatory": [
+          {"name": "pasta", "amount": "200g", "category": "grain"},
+          {"name": "garlic", "amount": "6 cloves", "category": "spice"},
+          {"name": "olive oil", "amount": "1/3 cup", "category": "fat"}
+        ],
+        "optional": [
+          {"name": "chili flakes", "amount": "1 tsp", "category": "spice"},
+          {"name": "parsley", "amount": "1/4 cup", "category": "herb"}
+        ]
+      },
+      "substitutes": {
+        "pasta": ["spaghetti", "linguine"],
+        "parsley": ["basil", "cilantro"]
+      },
+      "instructions": [
+        "Boil salted water, cook pasta al dente",
+        "Reserve 1 cup pasta water",
+        "Thinly slice garlic",
+        "Heat olive oil, add garlic",
+        "Cook until golden (don't burn)",
+        "Add chili flakes",
+        "Add drained pasta",
+        "Toss with pasta water",
+        "Add parsley, serve"
+      ],
+      "tags": ["quick", "italian", "simple"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "name": "Vegetable Stir Fry",
+      "cuisine": "Asian",
+      "type": "veg",
+      "prep_time": "10 mins",
+      "cook_time": "10 mins",
+      "servings": 2,
+      "ingredients": {
+        "mandatory": [
+          {"name": "carrot", "amount": "1", "category": "vegetable"},
+          {"name": "cabbage", "amount": "1 cup", "category": "vegetable"}
+        ],
+        "optional": [
+          {"name": "bell pepper", "amount": "1", "category": "vegetable"},
+          {"name": "onion", "amount": "1", "category": "vegetable"},
+          {"name": "garlic", "amount": "3 cloves", "category": "spice"},
+          {"name": "soy sauce", "amount": "2 tbsp", "category": "sauce"}
+        ]
+      },
+      "substitutes": {
+        "soy sauce": ["salt", "teriyaki sauce"]
+      },
+      "instructions": [
+        "Chop all vegetables into thin strips",
+        "Heat oil in wok on high",
+        "Add garlic, stir for 30 secs",
+        "Add onion, cook 1 min",
+        "Add carrot, cook 2 mins",
+        "Add cabbage and bell pepper",
+        "Stir-fry for 3-4 mins",
+        "Add soy sauce, toss well",
+        "Serve hot with rice"
+      ],
+      "tags": ["healthy", "quick", "vegetarian"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "name": "Omelette",
+      "cuisine": "Continental",
+      "type": "non-veg",
+      "prep_time": "3 mins",
+      "cook_time": "5 mins",
+      "servings": 1,
+      "ingredients": {
+        "mandatory": [
+          {"name": "egg", "amount": "2-3", "category": "protein"}
+        ],
+        "optional": [
+          {"name": "onion", "amount": "1/4 cup chopped", "category": "vegetable"},
+          {"name": "tomato", "amount": "1/4 cup chopped", "category": "vegetable"},
+          {"name": "cheese", "amount": "2 tbsp", "category": "dairy"}
+        ]
+      },
+      "substitutes": {},
+      "instructions": [
+        "Beat eggs with salt and pepper",
+        "Heat butter in non-stick pan",
+        "Pour eggs, swirl to spread",
+        "Add onion, tomato on one half",
+        "Sprinkle cheese if using",
+        "Cook until edges set (2 mins)",
+        "Fold in half, cook 1 more min",
+        "Slide onto plate, serve hot"
+      ],
+      "tags": ["breakfast", "quick", "protein"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "name": "Dal Tadka",
+      "cuisine": "Indian",
+      "type": "veg",
+      "prep_time": "10 mins",
+      "cook_time": "25 mins",
+      "servings": 4,
+      "ingredients": {
+        "mandatory": [
+          {"name": "lentils", "amount": "1 cup", "category": "protein"}
+        ],
+        "optional": [
+          {"name": "tomato", "amount": "1", "category": "vegetable"},
+          {"name": "onion", "amount": "1", "category": "vegetable"},
+          {"name": "garlic", "amount": "4 cloves", "category": "spice"},
+          {"name": "ginger", "amount": "1 inch", "category": "spice"}
+        ]
+      },
+      "substitutes": {
+        "lentils": ["red lentils", "yellow lentils"]
+      },
+      "instructions": [
+        "Wash lentils, pressure cook with water and turmeric",
+        "Mash lentils lightly",
+        "Heat ghee in pan, add cumin seeds",
+        "Add onion, cook until golden",
+        "Add ginger-garlic, cook 1 min",
+        "Add tomato, cook until soft",
+        "Add red chili powder, garam masala",
+        "Pour into cooked dal, mix",
+        "Simmer for 5 mins",
+        "Garnish with cilantro"
+      ],
+      "tags": ["healthy", "protein-rich", "indian"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "name": "Garlic Butter Chicken",
+      "cuisine": "Continental",
+      "type": "non-veg",
+      "prep_time": "10 mins",
+      "cook_time": "20 mins",
+      "servings": 2,
+      "ingredients": {
+        "mandatory": [
+          {"name": "chicken", "amount": "400g", "category": "protein"},
+          {"name": "garlic", "amount": "8 cloves", "category": "spice"},
+          {"name": "butter", "amount": "4 tbsp", "category": "fat"}
+        ],
+        "optional": [
+          {"name": "cream", "amount": "1/4 cup", "category": "dairy"},
+          {"name": "parsley", "amount": "2 tbsp", "category": "herb"}
+        ]
+      },
+      "substitutes": {
+        "butter": ["ghee", "olive oil"],
+        "cream": ["coconut cream"]
+      },
+      "instructions": [
+        "Cut chicken into pieces, season with salt and pepper",
+        "Heat butter in pan",
+        "Add chicken, cook until golden (8 mins)",
+        "Remove chicken, set aside",
+        "In same pan, add minced garlic",
+        "Cook for 1 min (don't burn)",
+        "Add cream, simmer 2 mins",
+        "Add chicken back, coat with sauce",
+        "Garnish with parsley",
+        "Serve with bread or rice"
+      ],
+      "tags": ["comfort", "creamy", "garlicky"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "name": "Potato Fry",
+      "cuisine": "Indian",
+      "type": "veg",
+      "prep_time": "10 mins",
+      "cook_time": "15 mins",
+      "servings": 2,
+      "ingredients": {
+        "mandatory": [
+          {"name": "potato", "amount": "3 medium", "category": "vegetable"}
+        ],
+        "optional": [
+          {"name": "onion", "amount": "1", "category": "vegetable"},
+          {"name": "chili powder", "amount": "1 tsp", "category": "spice"}
+        ]
+      },
+      "substitutes": {},
+      "instructions": [
+        "Peel and cube potatoes",
+        "Heat oil in pan",
+        "Add mustard seeds",
+        "Add onion, sauté",
+        "Add potatoes, salt, turmeric",
+        "Cover and cook on medium",
+        "Stir occasionally (12 mins)",
+        "Add chili powder",
+        "Cook until crispy",
+        "Serve hot"
+      ],
+      "tags": ["side-dish", "simple", "vegetarian"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "name": "Tomato Scrambled Eggs",
+      "cuisine": "Chinese",
+      "type": "non-veg",
+      "prep_time": "5 mins",
+      "cook_time": "8 mins",
+      "servings": 2,
+      "ingredients": {
+        "mandatory": [
+          {"name": "egg", "amount": "4", "category": "protein"},
+          {"name": "tomato", "amount": "2 large", "category": "vegetable"}
+        ],
+        "optional": [
+          {"name": "green onion", "amount": "2 stalks", "category": "vegetable"},
+          {"name": "garlic", "amount": "2 cloves", "category": "spice"}
+        ]
+      },
+      "substitutes": {},
+      "instructions": [
+        "Beat eggs with salt",
+        "Cut tomatoes into wedges",
+        "Heat oil, scramble eggs, remove",
+        "Add more oil, cook garlic 30 secs",
+        "Add tomatoes, cook 3 mins",
+        "Add sugar and salt",
+        "Add eggs back, mix gently",
+        "Garnish with green onion",
+        "Serve with rice"
+      ],
+      "tags": ["comfort", "homestyle", "chinese"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "name": "Simple Fried Chicken",
+      "cuisine": "Continental",
+      "type": "non-veg",
+      "prep_time": "15 mins",
+      "cook_time": "20 mins",
+      "servings": 3,
+      "ingredients": {
+        "mandatory": [
+          {"name": "chicken", "amount": "500g", "category": "protein"}
+        ],
+        "optional": [
+          {"name": "flour", "amount": "1 cup", "category": "grain"},
+          {"name": "egg", "amount": "1", "category": "protein"},
+          {"name": "garlic powder", "amount": "1 tsp", "category": "spice"}
+        ]
+      },
+      "substitutes": {
+        "flour": ["breadcrumbs", "cornstarch"]
+      },
+      "instructions": [
+        "Cut chicken into pieces",
+        "Season with salt, pepper, garlic powder",
+        "Beat egg in bowl",
+        "Put flour in another bowl",
+        "Dip chicken in egg, then flour",
+        "Heat oil in deep pan",
+        "Fry chicken until golden (8 mins per side)",
+        "Drain on paper towels",
+        "Serve hot"
+      ],
+      "tags": ["crispy", "comfort"],
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "name": "Vegetable Rice",
+      "cuisine": "Indian",
+      "type": "veg",
+      "prep_time": "10 mins",
+      "cook_time": "20 mins",
+      "servings": 3,
+      "ingredients": {
+        "mandatory": [
+          {"name": "rice", "amount": "1.5 cups", "category": "grain"}
+        ],
+        "optional": [
+          {"name": "carrot", "amount": "1", "category": "vegetable"},
+          {"name": "peas", "amount": "1/2 cup", "category": "vegetable"},
+          {"name": "onion", "amount": "1", "category": "vegetable"}
+        ]
+      },
+      "substitutes": {},
+      "instructions": [
+        "Wash and soak rice",
+        "Chop vegetables",
+        "Heat oil, add cumin seeds",
+        "Add onion, cook 2 mins",
+        "Add carrot, peas, cook 3 mins",
+        "Add rice, sauté 2 mins",
+        "Add 3 cups water, salt",
+        "Bring to boil, cover",
+        "Cook on low 15 mins",
+        "Fluff and serve"
+      ],
+      "tags": ["healthy", "one-pot", "vegetarian"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 15,
+      "name": "Garlic Noodles",
+      "cuisine": "Asian",
+      "type": "veg",
+      "prep_time": "5 mins",
+      "cook_time": "10 mins",
+      "servings": 2,
+      "ingredients": {
+        "mandatory": [
+          {"name": "noodles", "amount": "200g", "category": "grain"},
+          {"name": "garlic", "amount": "6 cloves", "category": "spice"}
+        ],
+        "optional": [
+          {"name": "soy sauce", "amount": "2 tbsp", "category": "sauce"},
+          {"name": "green onion", "amount": "2 stalks", "category": "vegetable"}
+        ]
+      },
+      "substitutes": {
+        "noodles": ["pasta", "rice noodles"]
+      },
+      "instructions": [
+        "Cook noodles per package instructions",
+        "Drain, set aside",
+        "Mince garlic",
+        "Heat oil in wok",
+        "Add garlic, cook until fragrant",
+        "Add noodles, toss",
+        "Add soy sauce, mix well",
+        "Garnish with green onion",
+        "Serve hot"
+      ],
+      "tags": ["quick", "garlicky", "asian"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 16,
+      "name": "Onion Omelette",
+      "cuisine": "Indian",
+      "type": "non-veg",
+      "prep_time": "5 mins",
+      "cook_time": "5 mins",
+      "servings": 1,
+      "ingredients": {
+        "mandatory": [
+          {"name": "egg", "amount": "2", "category": "protein"},
+          {"name": "onion", "amount": "1/2", "category": "vegetable"}
+        ],
+        "optional": [
+          {"name": "chili", "amount": "1", "category": "spice"},
+          {"name": "cilantro", "amount": "1 tbsp", "category": "herb"}
+        ]
+      },
+      "substitutes": {},
+      "instructions": [
+        "Chop onion finely",
+        "Beat eggs with salt, pepper",
+        "Mix in onion, chili, cilantro",
+        "Heat oil in pan",
+        "Pour egg mixture",
+        "Cook on medium 3 mins",
+        "Flip, cook 2 more mins",
+        "Serve hot with bread"
+      ],
+      "tags": ["breakfast", "quick", "protein"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 17,
+      "name": "Butter Toast",
+      "cuisine": "Continental",
+      "type": "veg",
+      "prep_time": "2 mins",
+      "cook_time": "5 mins",
+      "servings": 1,
+      "ingredients": {
+        "mandatory": [
+          {"name": "bread", "amount": "2 slices", "category": "grain"},
+          {"name": "butter", "amount": "2 tbsp", "category": "fat"}
+        ],
+        "optional": [
+          {"name": "garlic", "amount": "1 clove", "category": "spice"},
+          {"name": "parsley", "amount": "1 tsp", "category": "herb"}
+        ]
+      },
+      "substitutes": {},
+      "instructions": [
+        "Mix softened butter with minced garlic",
+        "Spread on bread slices",
+        "Place on baking tray",
+        "Toast in oven/toaster until golden",
+        "Sprinkle parsley",
+        "Serve warm"
+      ],
+      "tags": ["breakfast", "snack", "quick"],
+      "difficulty": "easy"
+    },
+    {
+      "id": 18,
+      "name": "Rice and Egg Bowl",
+      "cuisine": "Asian",
+      "type": "non-veg",
+      "prep_time": "5 mins",
+      "cook_time": "10 mins",
+      "servings": 1,
+      "ingredients": {
+        "mandatory": [
+          {"name": "rice", "amount": "1 cup cooked", "category": "grain"},
+          {"name": "egg", "amount": "1", "category": "protein"}
+        ],
+        "optional": [
+          {"name": "soy sauce", "amount": "1 tbsp", "category": "sauce"},
+          {"name": "green onion", "amount": "1 stalk", "category": "vegetable"}
+        ]
+      },
+      "substitutes": {},
+      "instructions": [
+        "Heat cooked rice",
+        "Fry egg sunny-side up",
+        "Place egg on top of rice",
+        "Drizzle with soy sauce",
+        "Sprinkle green onion",
+        "Mix before eating"
+      ],
+      "tags": ["comfort", "simple", "budget"],
+      "difficulty": "easy"
+    }
+  ]
+}

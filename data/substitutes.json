@@ -1,0 +1,30 @@
+{
+  "substitutes": {
+    "chicken": ["turkey", "tofu", "paneer", "mushrooms"],
+    "beef": ["lamb", "pork", "chicken", "jackfruit"],
+    "fish": ["shrimp", "tofu", "paneer"],
+    "egg": ["flax egg", "chia egg", "banana", "applesauce"],
+    "milk": ["almond milk", "soy milk", "coconut milk", "oat milk"],
+    "butter": ["ghee", "olive oil", "coconut oil", "margarine"],
+    "cream": ["coconut cream", "cashew cream", "greek yogurt"],
+    "yogurt": ["sour cream", "buttermilk", "coconut yogurt"],
+    "cheese": ["nutritional yeast", "cashew cheese", "tofu"],
+    "soy sauce": ["tamari", "coconut aminos", "worcestershire sauce"],
+    "vinegar": ["lemon juice", "lime juice", "wine"],
+    "honey": ["maple syrup", "agave nectar", "sugar"],
+    "sugar": ["honey", "maple syrup", "coconut sugar", "stevia"],
+    "flour": ["almond flour", "coconut flour", "rice flour"],
+    "rice": ["quinoa", "cauliflower rice", "couscous"],
+    "pasta": ["zucchini noodles", "rice noodles", "quinoa"],
+    "breadcrumbs": ["crushed crackers", "panko", "oats"],
+    "tomato": ["red bell pepper", "canned tomatoes"],
+    "onion": ["shallots", "leeks", "garlic"],
+    "garlic": ["garlic powder", "shallots", "onion"],
+    "ginger": ["ginger powder", "galangal"],
+    "cilantro": ["parsley", "basil", "mint"],
+    "basil": ["oregano", "thyme", "cilantro"],
+    "parsley": ["cilantro", "basil", "celery leaves"],
+    "paneer": ["tofu", "halloumi", "cottage cheese"],
+    "tofu": ["paneer", "tempeh", "seitan"]
+  }
+}
