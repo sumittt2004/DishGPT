@@ -22,11 +22,16 @@ DishGPT is an AI-powered recipe recommendation system that helps you discover wh
 
 ## 🖼️ Screenshots
 
-### Main Interface
-![Main Interface](screenshots/frontpage.png)
+<div align="center">
 
-### Recipe Results
-![Recipes](screenshots/recipes.png)
+### 🏠 Main Interface
+<img src="screenshots/frontpage.png" alt="Main Interface" width="700"/>
+
+### 🍽️ Recipe Results
+<img src="screenshots/recipes.png" alt="Recipe Results" width="700"/>
+
+</div>
+
 
 ---
 
