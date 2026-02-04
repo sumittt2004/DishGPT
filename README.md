@@ -32,7 +32,7 @@ DishGPT is an AI-powered recipe recommendation system that helps you discover wh
 
 ## 🚀 Live Demo
 
-**Try it now:** [DishGPT Live App](#) *(Add your deployed link here)*
+**Try it now:** [DishGPT Live App](#) *(https://dishgpt-sumit.streamlit.app/)*
 
 ---
 
